@@ -1,0 +1,4 @@
+PWD C:\Users\hecto\Documents\Thesis
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\hecto\Documents\Thesis\thesis.tex
+OUTPUT thesis.log
