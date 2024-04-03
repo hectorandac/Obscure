@@ -1,0 +1,302 @@
+PWD C:\Users\hecto\Documents\Thesis\paper_submision\rev1
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\hecto\Documents\Thesis\paper_submision\rev1\G-YOLOv6.tex
+OUTPUT G-YOLOv6.log
+INPUT .\llncs.cls
+INPUT llncs.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\oberdiek\aliascnt.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\oberdiek\aliascnt.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\svg\svg.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\svg\svg.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent-nometadata.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent-nometadata.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\makecell\makecell.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\G-YOLOv6.aux
+INPUT .\G-YOLOv6.aux
+INPUT G-YOLOv6.aux
+OUTPUT G-YOLOv6.aux
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx0900.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm0900.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+OUTPUT G-YOLOv6.pdf
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
+INPUT .\Images\feature_extractor.svg
+INPUT .\Images\feature_extractor.svg
+INPUT .\Images\feature_extractor.svg
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf_tex
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf_tex
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf_tex
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf_tex
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT svg-inkscape\feature_extractor_svg-tex.pdf_tex
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT .\svg-inkscape\feature_extractor_svg-tex.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
+INPUT .\Images\yolov6_architecture.svg
+INPUT .\Images\yolov6_architecture.svg
+INPUT .\Images\yolov6_architecture.svg
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf_tex
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf_tex
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf_tex
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf_tex
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT svg-inkscape\yolov6_architecture_svg-tex.pdf_tex
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT .\svg-inkscape\yolov6_architecture_svg-tex.pdf
+INPUT .\Images\gated_convolution.svg
+INPUT .\Images\gated_convolution.svg
+INPUT .\Images\gated_convolution.svg
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT svg-inkscape\gated_convolution_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT .\svg-inkscape\gated_convolution_svg-tex.pdf
+INPUT .\Images\fixed_grouping_gating_analysis.svg
+INPUT .\Images\fixed_grouping_gating_analysis.svg
+INPUT .\Images\fixed_grouping_gating_analysis.svg
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf_tex
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf_tex
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf_tex
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf_tex
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf_tex
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT .\Images\scene1.png
+INPUT .\Images\scene1.png
+INPUT .\Images\scene1.png
+INPUT .\Images\scene1.png
+INPUT .\Images\scene1.png
+INPUT .\Images\scene1.png
+INPUT .\Images\scene1.png
+INPUT .\Images\scene2.png
+INPUT .\Images\scene2.png
+INPUT .\Images\scene2.png
+INPUT .\Images\scene2.png
+INPUT .\Images\scene2.png
+INPUT .\Images\scene2.png
+INPUT .\Images\scene2.png
+INPUT .\Images\vari-viod.pdf
+INPUT .\Images\vari-viod.pdf
+INPUT .\Images\vari-viod.pdf
+INPUT .\Images\vari-viod.pdf
+INPUT .\Images\vari-viod.pdf
+INPUT .\Images\vari-viod.pdf
+INPUT .\G-YOLOv6.bbl
+INPUT .\G-YOLOv6.bbl
+INPUT G-YOLOv6.bbl
+INPUT G-YOLOv6.aux
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\hecto\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb

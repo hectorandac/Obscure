@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  14 MAR 2024 22:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  4 APR 2024 00:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1009,6 +1009,49 @@ Package biblatex Info: ... and expl3
 Package: xparse 2024-02-18 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+)) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/svg\svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+) (C:\Program Files\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+) (C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/ifplatform\ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))
+\c@svg@param@lastpage=\count488
+\svg@box=\box73
+\c@svg@param@currpage=\count489
+) (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
 ))) (setup.tex
 \mylenf=\skip135
 ) (abbreviations.tex
@@ -1022,8 +1065,8 @@ Package glossaries Info: Writing glossary file main.glo on input line 1.
 
 Package glossaries Info: Writing glossary file main.acn on input line 1.
 )
-\@quotelevel=\count488
-\@quotereset=\count489
+\@quotelevel=\count490
+\@quotereset=\count491
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 14.
  (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -1091,16 +1134,16 @@ LaTeX Font Info:    ... okay on input line 14.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count490
+\scratchcounter=\count492
 \scratchdimen=\dimen307
-\scratchbox=\box73
-\nofMPsegments=\count491
-\nofMParguments=\count492
+\scratchbox=\box74
+\nofMPsegments=\count493
+\nofMParguments=\count494
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count493
+\MPscratchCnt=\count495
 \MPscratchDim=\dimen308
-\MPnumerator=\count494
-\makeMPintoPDFobject=\count495
+\MPnumerator=\count496
+\makeMPintoPDFobject=\count497
 \everyMPtoPDFconversion=\toks53
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1145,6 +1188,14 @@ Package biblatex Info: Reference segment=0 on input line 14.
 \openout5 = `main.ist'.
 
 {C:/Users/hecto/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}]) (covers/cover_inner.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1184,45 +1235,43 @@ l.8
 
 ] [2] [3] [4] [5]) (text/chapter2.tex [6
 
-]
+] [7] [8] [9] [10] [11]) (text/chapter3.tex [12
 
-LaTeX Warning: Citation 'bengio2013' on page 7 undefined on input line 11.
+] [13] [14] [15] [16] [17] [18] [19] [20]
+Package svg Info: Last page of `./svg-inkscape/yolov6_architecture_svg-tex.pdf' is 1 on input line 113.
+ (svg-inkscape/yolov6_architecture_svg-tex.pdf_tex
+<./svg-inkscape/yolov6_architecture_svg-tex.pdf, id=365, page=1, 1318.55109pt x 604.88484pt>
+File: ./svg-inkscape/yolov6_architecture_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/yolov6_architecture_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/yolov6_architecture_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 356.22852pt x 163.41338pt.
+)
+Package svg Info: Last page of `./svg-inkscape/gated_convolution_svg-tex.pdf' is 1 on input line 120.
+ (svg-inkscape/gated_convolution_svg-tex.pdf_tex
+<./svg-inkscape/gated_convolution_svg-tex.pdf, id=367, page=1, 490.45734pt x 188.57953pt>
+File: ./svg-inkscape/gated_convolution_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gated_convolution_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/gated_convolution_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 356.22852pt x 136.97131pt.
+) [21] [22 <./svg-inkscape/yolov6_architecture_svg-tex.pdf>] [23 <./svg-inkscape/gated_convolution_svg-tex.pdf>] [24]
+Package svg Info: Last page of `./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf' is 1 on input line 172.
+ (svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf_tex
+<./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, id=703, page=1, 1445.4pt x 578.16pt>
+File: ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 356.22852pt x 142.49294pt.
+) [25 <./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf>] [26] [27]) (text/chapter4.tex [28
 
-[7]
+]) (text/chapter5.tex [29
 
-LaTeX Warning: Citation 'liu2017' on page 8 undefined on input line 21.
+]) (text/Appendices.tex [30
 
-[8]
+] [31
 
-LaTeX Warning: Citation 'chen2018' on page 9 undefined on input line 27.
+]) (text/abstract_korean.tex) [32
 
-[9]
-
-LaTeX Warning: Citation 'zhang2018' on page 10 undefined on input line 33.
-
-
-LaTeX Warning: Citation 'howard2017' on page 10 undefined on input line 37.
-
-
-LaTeX Warning: Citation 'kalwar2023' on page 10 undefined on input line 41.
-
-[10] [11]) (text/chapter3.tex [12
-
-]) (text/chapter4.tex [13
-
-]) (text/chapter5.tex [14
-
-]) (text/Appendices.tex [15
-
-] [16
-
-]) (text/abstract_korean.tex)
-
-LaTeX Warning: Empty bibliography on input line 93.
-
-[17
-
-] (main.aux)
+] [33] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1232,7 +1281,7 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8389CAC26AA1D4BBDF5672EC25C19CB6;3145.
+(rerunfilecheck)             Checksum: 7C689A00C039C36060BD541F8A9BB705;4127.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1243,17 +1292,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34642 strings out of 474436
- 650899 string characters out of 5751769
+ 36436 strings out of 474436
+ 687389 string characters out of 5751769
  1935190 words of memory out of 5000000
- 56313 multiletter control sequences out of 15000+600000
- 574367 words of font info for 64 fonts, out of 8000000 for 9000
+ 57961 multiletter control sequences out of 15000+600000
+ 580307 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,10n,104p,2464b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (27 pages, 88213 bytes).
+ 104i,10n,104p,2464b,1506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (43 pages, 1032693 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 942 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 

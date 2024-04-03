@@ -16,5 +16,511 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{redmon2016you}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=RJ}{%
+         family={Redmon},
+         familyi={R\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Divvala},
+         familyi={D\bibinitperiod},
+         given={Santosh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Girshick},
+         familyi={G\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Farhadi},
+         familyi={F\bibinitperiod},
+         given={Ali},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RJDSGR+1}
+    \strng{fullhash}{RJDSGRFA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}
+    \field{pages}{779\bibrangedash 788}
+    \field{title}{You only look once: Unified, real-time object detection}
+    \field{year}{2016}
+  \endentry
+
+  \entry{li2022yolov6}{article}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=LC}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chuyi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Lulu},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Hongliang},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Weng},
+         familyi={W\bibinitperiod},
+         given={Kaiheng},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={Geng},
+         familyi={G\bibinitperiod},
+         given={Yifei},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Liang},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KZ}{%
+         family={Ke},
+         familyi={K\bibinitperiod},
+         given={Zaidan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Qingyuan},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NW}{%
+         family={Nie},
+         familyi={N\bibinitperiod},
+         given={Weiqiang},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCLLJH+1}
+    \strng{fullhash}{LCLLJHWKGYLLKZLQCMNW+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{YOLOv6: A single-stage object detection framework for
+  industrial applications}
+    \field{journaltitle}{arXiv preprint arXiv:2209.02976}
+    \field{year}{2022}
+  \endentry
+
+  \entry{li2023yolov6}{article}{}
+    \name{author}{9}{}{%
+      {{hash=LC}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chuyi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LL}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Lulu},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GY}{%
+         family={Geng},
+         familyi={G\bibinitperiod},
+         given={Yifei},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JH}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Hongliang},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Meng},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KZ}{%
+         family={Ke},
+         familyi={K\bibinitperiod},
+         given={Zaidan},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=XX}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Xiaoming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Xiangxiang},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LCLLGY+1}
+    \strng{fullhash}{LCLLGYJHCMZBKZXXCX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Yolov6 v3. 0: A full-scale reloading}
+    \field{journaltitle}{arXiv preprint arXiv:2301.05586}
+    \field{year}{2023}
+  \endentry
+
+  \entry{kaiser2018discrete}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KL}{%
+         family={Kaiser},
+         familyi={K\bibinitperiod},
+         given={{\L}ukasz},
+         giveni={{\L}\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Samy},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KLBS1}
+    \strng{fullhash}{KLBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Discrete autoencoders for sequence models}
+    \field{journaltitle}{arXiv preprint arXiv:1801.09797}
+    \field{year}{2018}
+  \endentry
+
+  \entry{chen2019you}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhourong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Samy},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Si},
+         familyi={S\bibinitperiod},
+         given={Si},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CZLYBS+1}
+    \strng{fullhash}{CZLYBSSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}
+    \field{pages}{9172\bibrangedash 9180}
+    \field{title}{You look twice: Gaternet for dynamic filter selection in
+  cnns}
+    \field{year}{2019}
+  \endentry
+
+  \entry{bengio2013deep}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{BY1}
+    \strng{fullhash}{BY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International conference on statistical language and
+  speech processing}
+    \field{pages}{1\bibrangedash 37}
+    \field{title}{Deep learning of representations: Looking forward}
+    \field{year}{2013}
+  \endentry
+
+  \entry{liu2020dynamic}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Junjie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=XZ}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Shi},
+         familyi={S\bibinitperiod},
+         given={Runbin},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CRC}{%
+         family={Cheung},
+         familyi={C\bibinitperiod},
+         given={Ray\bibnamedelima CC},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SHK}{%
+         family={So},
+         familyi={S\bibinitperiod},
+         given={Hayden\bibnamedelima KH},
+         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJXZSR+1}
+    \strng{fullhash}{LJXZSRCRCSHK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Dynamic sparse training: Find efficient sparse network from
+  scratch with trainable masked layers}
+    \field{journaltitle}{arXiv preprint arXiv:2005.06870}
+    \field{year}{2020}
+  \endentry
+
+  \entry{zhang2023neural}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhang},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Tao},
+         familyi={T\bibinitperiod},
+         given={Ruyi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jiang},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZZTRZJ1}
+    \strng{fullhash}{ZZTRZJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Neural Network Pruning by Gradient Descent}
+    \field{journaltitle}{arXiv preprint arXiv:2311.12526}
+    \field{year}{2023}
+  \endentry
+
+  \entry{howard2019searching}{inproceedings}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{10}{}{%
+      {{hash=HA}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sandler},
+         familyi={S\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Chu},
+         familyi={C\bibinitperiod},
+         given={Grace},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CLC}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Liang-Chieh},
+         giveni={L\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Mingxing},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WW}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Weijun},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Yukun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pang},
+         familyi={P\bibinitperiod},
+         given={Ruoming},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasudevan},
+         familyi={V\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HASMCG+1}
+    \strng{fullhash}{HASMCGCLCCBTMWWZYPRVV+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE/CVF international conference on
+  computer vision}
+    \field{pages}{1314\bibrangedash 1324}
+    \field{title}{Searching for mobilenetv3}
+    \field{year}{2019}
+  \endentry
+
+  \entry{kalwar2023gdip}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=KS}{%
+         family={Kalwar},
+         familyi={K\bibinitperiod},
+         given={Sanket},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Patel},
+         familyi={P\bibinitperiod},
+         given={Dhruv},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aanegola},
+         familyi={A\bibinitperiod},
+         given={Aakash},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KKR}{%
+         family={Konda},
+         familyi={K\bibinitperiod},
+         given={Krishna\bibnamedelima Reddy},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Garg},
+         familyi={G\bibinitperiod},
+         given={Sourav},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KKM}{%
+         family={Krishna},
+         familyi={K\bibinitperiod},
+         given={K\bibnamedelima Madhava},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KSPDAA+1}
+    \strng{fullhash}{KSPDAAKKRGSKKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2023 IEEE International Conference on Robotics and
+  Automation (ICRA)}
+    \field{pages}{7083\bibrangedash 7089}
+    \field{title}{GDIP: gated differentiable image processing for object
+  detection in adverse conditions}
+    \field{year}{2023}
+  \endentry
+
+  \entry{he2016deep}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HK}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Kaiming},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Xiangyu},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RS}{%
+         family={Ren},
+         familyi={R\bibinitperiod},
+         given={Shaoqing},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HKZXRS+1}
+    \strng{fullhash}{HKZXRSSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}
+    \field{pages}{770\bibrangedash 778}
+    \field{title}{Deep residual learning for image recognition}
+    \field{year}{2016}
+  \endentry
+\enddatalist
 \endinput
