@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  4 APR 2024 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  7 APR 2024 16:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1067,36 +1067,36 @@ Package glossaries Info: Writing glossary file main.acn on input line 1.
 )
 \@quotelevel=\count490
 \@quotereset=\count491
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 14.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 13.
  (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 14.
-LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for LUC/nanummj/m/n on input line 13.
+LaTeX Font Info:    Trying to load font information for LUC+nanummj on input line 13.
  (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/nanumtype1\lucnanummj.fd
 File: lucnanummj.fd 2013/02/12 v0.1 Nanum Myeongjo font definitions
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1158,9 +1158,9 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
-Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 14.
+Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 13.
 
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 13.
 (main.out) (main.out)
 \@outlinefile=\write8
 \openout8 = `main.out'.
@@ -1181,8 +1181,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
+Package biblatex Info: Reference section=0 on input line 13.
+Package biblatex Info: Reference segment=0 on input line 13.
  (covers/cover_outer.tex [1
 
 \openout5 = `main.ist'.
@@ -1235,12 +1235,12 @@ l.8
 
 ] [2] [3] [4] [5]) (text/chapter2.tex [6
 
-] [7] [8] [9] [10] [11]) (text/chapter3.tex [12
+] [7] [8] [9] [10] [11] [12] [13] [14]) (text/chapter3.tex [15
 
-] [13] [14] [15] [16] [17] [18] [19] [20]
+] [16] [17] [18] [19] [20] [21] [22] [23]
 Package svg Info: Last page of `./svg-inkscape/yolov6_architecture_svg-tex.pdf' is 1 on input line 113.
  (svg-inkscape/yolov6_architecture_svg-tex.pdf_tex
-<./svg-inkscape/yolov6_architecture_svg-tex.pdf, id=365, page=1, 1318.55109pt x 604.88484pt>
+<./svg-inkscape/yolov6_architecture_svg-tex.pdf, id=387, page=1, 1318.55109pt x 604.88484pt>
 File: ./svg-inkscape/yolov6_architecture_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/yolov6_architecture_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/yolov6_architecture_svg-tex.pdf , page1 used on input line 56.
@@ -1248,30 +1248,34 @@ Package pdftex.def Info: ./svg-inkscape/yolov6_architecture_svg-tex.pdf , page1 
 )
 Package svg Info: Last page of `./svg-inkscape/gated_convolution_svg-tex.pdf' is 1 on input line 120.
  (svg-inkscape/gated_convolution_svg-tex.pdf_tex
-<./svg-inkscape/gated_convolution_svg-tex.pdf, id=367, page=1, 490.45734pt x 188.57953pt>
+<./svg-inkscape/gated_convolution_svg-tex.pdf, id=389, page=1, 490.45734pt x 188.57953pt>
 File: ./svg-inkscape/gated_convolution_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gated_convolution_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/gated_convolution_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 356.22852pt x 136.97131pt.
-) [21] [22 <./svg-inkscape/yolov6_architecture_svg-tex.pdf>] [23 <./svg-inkscape/gated_convolution_svg-tex.pdf>] [24]
+) [24] [25 <./svg-inkscape/yolov6_architecture_svg-tex.pdf>] [26 <./svg-inkscape/gated_convolution_svg-tex.pdf>] [27]
 Package svg Info: Last page of `./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf' is 1 on input line 172.
  (svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf_tex
-<./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, id=703, page=1, 1445.4pt x 578.16pt>
+<./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, id=725, page=1, 1445.4pt x 578.16pt>
 File: ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 356.22852pt x 142.49294pt.
-) [25 <./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf>] [26] [27]) (text/chapter4.tex [28
+) [28 <./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf>] [29] [30]) (text/chapter4.tex [31
 
-]) (text/chapter5.tex [29
+]) (text/chapter5.tex [32
 
-]) (text/Appendices.tex [30
+]) (text/Appendices.tex [33
 
-] [31
+] [34
 
-]) (text/abstract_korean.tex) [32
+]) (text/abstract_korean.tex)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 98.
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+) [35
 
-] [33] (main.aux)
+] [36] [37] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1281,7 +1285,7 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7C689A00C039C36060BD541F8A9BB705;4127.
+(rerunfilecheck)             Checksum: 01225896053E9615453FF0D3F0508ADA;4145.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1292,17 +1296,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36436 strings out of 474436
- 687389 string characters out of 5751769
+ 36514 strings out of 474436
+ 689529 string characters out of 5751769
  1935190 words of memory out of 5000000
- 57961 multiletter control sequences out of 15000+600000
- 580307 words of font info for 78 fonts, out of 8000000 for 9000
+ 58024 multiletter control sequences out of 15000+600000
+ 580822 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,10n,104p,2464b,1506s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (43 pages, 1032693 bytes).
+ 104i,10n,104p,2464b,1505s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (47 pages, 1054758 bytes).
 PDF statistics:
- 942 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 976 PDF objects out of 1000 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 

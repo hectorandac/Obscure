@@ -282,6 +282,34 @@
     \field{year}{2013}
   \endentry
 
+  \entry{veit2020convolutional}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=VA}{%
+         family={Veit},
+         familyi={V\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Belongie},
+         familyi={B\bibinitperiod},
+         given={Serge},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VABS1}
+    \strng{fullhash}{VABS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1711.11503
+    \endverb
+    \field{title}{Convolutional Networks with Adaptive Inference Graphs}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2020}
+  \endentry
+
   \entry{liu2020dynamic}{article}{}
     \name{author}{5}{}{%
       {{hash=LJ}{%
@@ -325,6 +353,60 @@
     \field{year}{2020}
   \endentry
 
+  \entry{kalwar2023gdip}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=KS}{%
+         family={Kalwar},
+         familyi={K\bibinitperiod},
+         given={Sanket},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Patel},
+         familyi={P\bibinitperiod},
+         given={Dhruv},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Aanegola},
+         familyi={A\bibinitperiod},
+         given={Aakash},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KKR}{%
+         family={Konda},
+         familyi={K\bibinitperiod},
+         given={Krishna\bibnamedelima Reddy},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Garg},
+         familyi={G\bibinitperiod},
+         given={Sourav},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KKM}{%
+         family={Krishna},
+         familyi={K\bibinitperiod},
+         given={K\bibnamedelima Madhava},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KSPDAA+1}
+    \strng{fullhash}{KSPDAAKKRGSKKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2023 IEEE International Conference on Robotics and
+  Automation (ICRA)}
+    \field{pages}{7083\bibrangedash 7089}
+    \field{title}{GDIP: gated differentiable image processing for object
+  detection in adverse conditions}
+    \field{year}{2023}
+  \endentry
+
   \entry{zhang2023neural}{article}{}
     \name{author}{3}{}{%
       {{hash=ZZ}{%
@@ -353,6 +435,41 @@
     \field{title}{Neural Network Pruning by Gradient Descent}
     \field{journaltitle}{arXiv preprint arXiv:2311.12526}
     \field{year}{2023}
+  \endentry
+
+  \entry{han2016deep}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=HS}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Song},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mao},
+         familyi={M\bibinitperiod},
+         given={Huizi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DWJ}{%
+         family={Dally},
+         familyi={D\bibinitperiod},
+         given={William\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HSMHDWJ1}
+    \strng{fullhash}{HSMHDWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 1510.00149
+    \endverb
+    \field{title}{Deep Compression: Compressing Deep Neural Networks with
+  Pruning, Trained Quantization and Huffman Coding}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2016}
   \endentry
 
   \entry{howard2019searching}{inproceedings}{}
@@ -431,58 +548,212 @@
     \field{year}{2019}
   \endentry
 
-  \entry{kalwar2023gdip}{inproceedings}{}
-    \name{author}{6}{}{%
-      {{hash=KS}{%
-         family={Kalwar},
+  \entry{krishnamoorthi2018quantizing}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KR}{%
+         family={Krishnamoorthi},
          familyi={K\bibinitperiod},
-         given={Sanket},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=PD}{%
-         family={Patel},
-         familyi={P\bibinitperiod},
-         given={Dhruv},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=AA}{%
-         family={Aanegola},
-         familyi={A\bibinitperiod},
-         given={Aakash},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=KKR}{%
-         family={Konda},
-         familyi={K\bibinitperiod},
-         given={Krishna\bibnamedelima Reddy},
-         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=GS}{%
-         family={Garg},
-         familyi={G\bibinitperiod},
-         given={Sourav},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=KKM}{%
-         family={Krishna},
-         familyi={K\bibinitperiod},
-         given={K\bibnamedelima Madhava},
-         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Raghuraman},
+         giveni={R\bibinitperiod},
       }}%
     }
-    \list{organization}{1}{%
-      {IEEE}%
-    }
-    \strng{namehash}{KSPDAA+1}
-    \strng{fullhash}{KSPDAAKKRGSKKM1}
+    \strng{namehash}{KR1}
+    \strng{fullhash}{KR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{2023 IEEE International Conference on Robotics and
-  Automation (ICRA)}
-    \field{pages}{7083\bibrangedash 7089}
-    \field{title}{GDIP: gated differentiable image processing for object
-  detection in adverse conditions}
-    \field{year}{2023}
+    \field{title}{Quantizing deep convolutional networks for efficient
+  inference: A whitepaper}
+    \field{journaltitle}{arXiv preprint arXiv:1806.08342}
+    \field{year}{2018}
+  \endentry
+
+  \entry{jacob2018quantization}{inproceedings}{}
+    \name{author}{8}{}{%
+      {{hash=JB}{%
+         family={Jacob},
+         familyi={J\bibinitperiod},
+         given={Benoit},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kligys},
+         familyi={K\bibinitperiod},
+         given={Skirmantas},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Menglong},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Matthew},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Howard},
+         familyi={H\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={Hartwig},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kalenichenko},
+         familyi={K\bibinitperiod},
+         given={Dmitry},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JBKSCB+1}
+    \strng{fullhash}{JBKSCBZMTMHAAHKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE conference on computer vision and
+  pattern recognition}
+    \field{pages}{2704\bibrangedash 2713}
+    \field{title}{Quantization and training of neural networks for efficient
+  integer-arithmetic-only inference}
+    \field{year}{2018}
+  \endentry
+
+  \entry{wang2019haq}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=WK}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Kuan},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zhijian},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Yujun},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Ji},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Song},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WKLZLY+1}
+    \strng{fullhash}{WKLZLYLJHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}
+    \field{pages}{8612\bibrangedash 8620}
+    \field{title}{Haq: Hardware-aware automated quantization with mixed
+  precision}
+    \field{year}{2019}
+  \endentry
+
+  \entry{hinton2015distilling}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HG}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VO}{%
+         family={Vinyals},
+         familyi={V\bibinitperiod},
+         given={Oriol},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HGVODJ1}
+    \strng{fullhash}{HGVODJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Distilling the knowledge in a neural network}
+    \field{journaltitle}{arXiv preprint arXiv:1503.02531}
+    \field{year}{2015}
+  \endentry
+
+  \entry{zhang2019your}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=ZL}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Linfeng},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Jiebo},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Anni},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Jingwei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Bao},
+         familyi={B\bibinitperiod},
+         given={Chenglong},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Kaisheng},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZLSJGA+1}
+    \strng{fullhash}{ZLSJGACJBCMK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the IEEE/CVF international conference on
+  computer vision}
+    \field{pages}{3713\bibrangedash 3722}
+    \field{title}{Be your own teacher: Improve the performance of convolutional
+  neural networks via self distillation}
+    \field{year}{2019}
   \endentry
 
   \entry{he2016deep}{inproceedings}{}
