@@ -16,28 +16,42 @@
 \contentsline {section}{\numberline {3}Methodology}{15}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Gater Network}{15}{subsection.3.1}%
 \contentsline {paragraph}{Gate Generation and Application.}{16}{section*.3}%
-\contentsline {paragraph}{Dynamic Adaptation to Scene Features.}{17}{section*.4}%
-\contentsline {subsubsection}{\numberline {3.1.1}Feature Extraction}{17}{subsubsection.3.1.1}%
-\contentsline {paragraph}{ResNet-18 for Efficient Feature Representation.}{18}{section*.5}%
-\contentsline {paragraph}{Adaptive Pooling for Dimensionality Reduction.}{18}{section*.6}%
-\contentsline {paragraph}{Feature Flattening for Gate Generation.}{19}{section*.7}%
-\contentsline {subsubsection}{\numberline {3.1.2}Binary Gates}{19}{subsubsection.3.1.2}%
-\contentsline {paragraph}{Mapping to Binary Space.}{20}{section*.8}%
-\contentsline {paragraph}{Improved Semantic Hashing.}{20}{section*.9}%
-\contentsline {paragraph}{Binary Decision Making.}{21}{section*.10}%
+\contentsline {paragraph}{Dynamic Adaptation to Scene Features.}{17}{section*.5}%
+\contentsline {subsubsection}{\numberline {3.1.1}Feature Extraction}{18}{subsubsection.3.1.1}%
+\contentsline {paragraph}{ResNet-18 for Efficient Feature Representation.}{18}{section*.6}%
+\contentsline {paragraph}{Adaptive Pooling for Dimensionality Reduction.}{19}{section*.7}%
+\contentsline {paragraph}{Feature Flattening for Gate Generation.}{19}{section*.8}%
+\contentsline {subsubsection}{\numberline {3.1.2}Binary Gates}{20}{subsubsection.3.1.2}%
+\contentsline {paragraph}{Mapping to Binary Space.}{20}{section*.9}%
+\contentsline {paragraph}{Improved Semantic Hashing.}{21}{section*.10}%
+\contentsline {paragraph}{Binary Decision Making.}{22}{section*.11}%
 \contentsline {subsubsection}{\numberline {3.1.3}Loss Function}{22}{subsubsection.3.1.3}%
-\contentsline {paragraph}{Classification and IoU Losses.}{23}{section*.11}%
-\contentsline {paragraph}{Gating Loss.}{23}{section*.12}%
-\contentsline {paragraph}{Balancing Detection Performance and Efficiency.}{23}{section*.13}%
+\contentsline {paragraph}{Classification and IoU Losses.}{23}{section*.12}%
+\contentsline {paragraph}{Gating Loss.}{23}{section*.13}%
+\contentsline {paragraph}{Balancing Detection Performance and Efficiency.}{24}{section*.14}%
 \contentsline {subsection}{\numberline {3.2}YOLO Architecture}{24}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}YOLO Gate Module}{26}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}Analysis Step}{27}{subsection.3.3}%
-\contentsline {paragraph}{Monitoring Gating Decisions.}{28}{section*.16}%
-\contentsline {paragraph}{Grouping and Analysis of Gating Decisions.}{28}{section*.17}%
-\contentsline {paragraph}{Distillation of Static Gating Configuration.}{29}{section*.19}%
-\contentsline {paragraph}{Practical Implications and Future Directions.}{29}{section*.20}%
+\contentsline {subsubsection}{\numberline {3.2.1}YOLO Gate Module}{27}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Analysis Step}{28}{subsection.3.3}%
+\contentsline {paragraph}{Monitoring Gating Decisions.}{28}{section*.17}%
+\contentsline {paragraph}{Grouping and Analysis of Gating Decisions.}{29}{section*.18}%
+\contentsline {paragraph}{Distillation of Static Gating Configuration.}{29}{section*.20}%
+\contentsline {paragraph}{Practical Implications and Future Directions.}{30}{section*.21}%
 \contentsline {section}{\numberline {4}Experiments and Results}{31}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{32}{section.5}%
-\contentsline {section}{Appendices}{33}{section.5}%
-\contentsline {section}{Abstract in Korean}{35}{section*.23}%
-\contentsline {section}{References}{35}{section*.24}%
+\contentsline {subsection}{\numberline {4.1}Experimental Setup}{31}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Datasets}{32}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Performance Metrics}{32}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Baseline Models}{33}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Results}{33}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Image Classification on MNIST}{33}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Object Detection on COCO}{34}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Object Detection on VOC}{36}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.4}Object Detection on ROAD-SEC}{36}{subsubsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.6}Ablation Study}{37}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Noise Distribution Strategy}{38}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Feature Extractor}{38}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.3}Alternative YOLO Architecture}{39}{subsubsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.7}Discussion}{39}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Conclusion}{40}{section.5}%
+\contentsline {section}{Appendices}{41}{section.5}%
+\contentsline {section}{Abstract in Korean}{43}{section*.31}%
+\contentsline {section}{References}{45}{section*.32}%

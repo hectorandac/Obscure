@@ -793,5 +793,115 @@
     \field{title}{Deep residual learning for image recognition}
     \field{year}{2016}
   \endentry
+
+  \entry{ultralytics2021yolov5}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=U}{%
+         family={Ultralytics},
+         familyi={U\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{U1}
+    \strng{fullhash}{U1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://docs.ultralytics.com}}
+    \field{note}{Accessed: 2024-04-01}
+    \field{title}{{YOLOv5}: {A} state-of-the-art real-time object detection
+  system}
+    \field{year}{2021}
+  \endentry
+
+  \entry{ge2021yolox}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=GZ}{%
+         family={Ge},
+         familyi={G\bibinitperiod},
+         given={Zheng},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Songtao},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WF}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LZ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Zeming},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GZLSWF+1}
+    \strng{fullhash}{GZLSWFLZSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{eprint}
+    \verb 2107.08430
+    \endverb
+    \field{title}{YOLOX: Exceeding YOLO Series in 2021}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CV}
+    \field{year}{2021}
+  \endentry
+
+  \entry{dog2021dog}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DQA}{%
+         family={DOG-QIUQIU},
+         familyi={D\bibinithyphendelim Q\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+    }
+    \strng{namehash}{DQA1}
+    \strng{fullhash}{DQA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{dog-qiuqiu/Yolo-Fastest: Yolo-fastest-v1. 1.0}
+    \field{year}{2021}
+  \endentry
+
+  \entry{tan2019efficientnet}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=TM}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Mingxing},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {PMLR}%
+    }
+    \strng{namehash}{TMLQ1}
+    \strng{fullhash}{TMLQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International conference on machine learning}
+    \field{pages}{6105\bibrangedash 6114}
+    \field{title}{Efficientnet: Rethinking model scaling for convolutional
+  neural networks}
+    \field{year}{2019}
+  \endentry
 \enddatalist
 \endinput

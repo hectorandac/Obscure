@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  7 APR 2024 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.3) (preloaded format=pdflatex 2024.3.14)  10 APR 2024 04:02
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1052,8 +1052,27 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 Package: transparent 2022-10-27 v1.5 Transparency with color stacks
  (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
 Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color stack (HO)
-))) (setup.tex
-\mylenf=\skip135
+)) (C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen307
+\ar@mcellbox=\box74
+\extrarowheight=\dimen308
+\NC@list=\toks52
+\extratabsurround=\skip135
+\backup@length=\skip136
+\ar@cellbox=\box75
+)
+\TX@col@width=\dimen309
+\TX@old@table=\dimen310
+\TX@old@col=\dimen311
+\TX@target=\dimen312
+\TX@delta=\dimen313
+\TX@cols=\count490
+\TX@ftn=\toks53
+)) (setup.tex
+\mylenf=\skip137
 ) (abbreviations.tex
 \glswrite=\write5
 \glo@main@file=\write6
@@ -1065,12 +1084,16 @@ Package glossaries Info: Writing glossary file main.glo on input line 1.
 
 Package glossaries Info: Writing glossary file main.acn on input line 1.
 )
-\@quotelevel=\count490
-\@quotereset=\count491
+\@quotelevel=\count491
+\@quotereset=\count492
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 13.
  (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `tab:mnist_model_comparison' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -1134,17 +1157,17 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count492
-\scratchdimen=\dimen307
-\scratchbox=\box74
-\nofMPsegments=\count493
-\nofMParguments=\count494
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count495
-\MPscratchDim=\dimen308
-\MPnumerator=\count496
-\makeMPintoPDFobject=\count497
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count493
+\scratchdimen=\dimen314
+\scratchbox=\box76
+\nofMPsegments=\count494
+\nofMParguments=\count495
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count496
+\MPscratchDim=\dimen315
+\MPnumerator=\count497
+\makeMPintoPDFobject=\count498
+\everyMPtoPDFconversion=\toks55
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1237,45 +1260,59 @@ l.8
 
 ] [7] [8] [9] [10] [11] [12] [13] [14]) (text/chapter3.tex [15
 
-] [16] [17] [18] [19] [20] [21] [22] [23]
-Package svg Info: Last page of `./svg-inkscape/yolov6_architecture_svg-tex.pdf' is 1 on input line 113.
+]
+Package svg Info: Last page of `./svg-inkscape/gaternet_svg-tex.pdf' is 1 on input line 14.
+ (svg-inkscape/gaternet_svg-tex.pdf_tex
+<./svg-inkscape/gaternet_svg-tex.pdf, id=405, page=1, 759.96422pt x 229.98422pt>
+File: ./svg-inkscape/gaternet_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/gaternet_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/gaternet_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 356.22852pt x 107.80482pt.
+) [16] [17 <./svg-inkscape/gaternet_svg-tex.pdf>] [18] [19] [20] [21] [22] [23] [24]
+Package svg Info: Last page of `./svg-inkscape/yolov6_architecture_svg-tex.pdf' is 1 on input line 124.
  (svg-inkscape/yolov6_architecture_svg-tex.pdf_tex
-<./svg-inkscape/yolov6_architecture_svg-tex.pdf, id=387, page=1, 1318.55109pt x 604.88484pt>
+<./svg-inkscape/yolov6_architecture_svg-tex.pdf, id=532, page=1, 1318.55109pt x 604.88484pt>
 File: ./svg-inkscape/yolov6_architecture_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/yolov6_architecture_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/yolov6_architecture_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 356.22852pt x 163.41338pt.
 )
-Package svg Info: Last page of `./svg-inkscape/gated_convolution_svg-tex.pdf' is 1 on input line 120.
+Package svg Info: Last page of `./svg-inkscape/gated_convolution_svg-tex.pdf' is 1 on input line 131.
  (svg-inkscape/gated_convolution_svg-tex.pdf_tex
-<./svg-inkscape/gated_convolution_svg-tex.pdf, id=389, page=1, 490.45734pt x 188.57953pt>
+<./svg-inkscape/gated_convolution_svg-tex.pdf, id=534, page=1, 490.45734pt x 188.57953pt>
 File: ./svg-inkscape/gated_convolution_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/gated_convolution_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/gated_convolution_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 356.22852pt x 136.97131pt.
-) [24] [25 <./svg-inkscape/yolov6_architecture_svg-tex.pdf>] [26 <./svg-inkscape/gated_convolution_svg-tex.pdf>] [27]
-Package svg Info: Last page of `./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf' is 1 on input line 172.
+) [25 <./svg-inkscape/yolov6_architecture_svg-tex.pdf>] [26 <./svg-inkscape/gated_convolution_svg-tex.pdf>] [27] [28]
+Package svg Info: Last page of `./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf' is 1 on input line 183.
  (svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf_tex
-<./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, id=725, page=1, 1445.4pt x 578.16pt>
+<./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, id=872, page=1, 1445.4pt x 578.16pt>
 File: ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 356.22852pt x 142.49294pt.
-) [28 <./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf>] [29] [30]) (text/chapter4.tex [31
+) [29 <./svg-inkscape/fixed_grouping_gating_analysis_svg-tex.pdf>] [30]) (text/chapter4.tex [31
 
-]) (text/chapter5.tex [32
+]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 15.
+ (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [32] [33] [34] [35] [36] [37] [38] [39]) (text/chapter5.tex [40
 
-]) (text/Appendices.tex [33
+]) (text/Appendices.tex [41
 
-] [34
+] [42
 
-]) (text/abstract_korean.tex)
+]) (text/abstract_korean.tex [43
+
+] [44])
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 98.
  (C:\Users\hecto\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [35
+) [45
 
-] [36] [37] (main.aux)
+] [46] [47] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1284,8 +1321,11 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 01225896053E9615453FF0D3F0508ADA;4145.
+(rerunfilecheck)             Checksum: 03FB747395C7D6257DD97DA26AB4C490;6430.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                main
@@ -1296,17 +1336,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36514 strings out of 474436
- 689529 string characters out of 5751769
- 1935190 words of memory out of 5000000
- 58024 multiletter control sequences out of 15000+600000
- 580822 words of font info for 80 fonts, out of 8000000 for 9000
+ 36833 strings out of 474436
+ 695621 string characters out of 5751769
+ 1952190 words of memory out of 5000000
+ 58256 multiletter control sequences out of 15000+600000
+ 592403 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,10n,104p,2464b,1505s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (47 pages, 1054758 bytes).
+ 104i,10n,104p,2464b,1509s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmac.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmad.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmae.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb0.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb1.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb2.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb3.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb4.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb5.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb7.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb8.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmb9.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmba.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmbb.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmbc.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmbd.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmbe.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmbf.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc0.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc1.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc2.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc3.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc5.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc6.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc7.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc8.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmc9.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmcc.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmcd.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmce.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmcf.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd0.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd1.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd2.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd3.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd4.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd5.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd6.pfb><C:/Users/hecto/AppData/Roaming/MiKTeX/fonts/type1/public/nanumtype1/nanummjmd7.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (57 pages, 3325401 bytes).
 PDF statistics:
- 976 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1554 PDF objects out of 1728 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 

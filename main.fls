@@ -390,6 +390,10 @@ INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent.st
 INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent.sty
 INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent-nometadata.sty
 INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\transparent\transparent-nometadata.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
 INPUT .\setup.tex
 INPUT .\setup.tex
 INPUT setup.tex
@@ -514,6 +518,22 @@ INPUT text\chapter2.tex
 INPUT .\text\chapter3.tex
 INPUT .\text\chapter3.tex
 INPUT text\chapter3.tex
+INPUT .\figures\gaternet.svg
+INPUT .\figures\gaternet.svg
+INPUT .\figures\gaternet.svg
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
+INPUT svg-inkscape\gaternet_svg-tex.pdf_tex
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
+INPUT .\svg-inkscape\gaternet_svg-tex.pdf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
@@ -572,6 +592,11 @@ INPUT .\svg-inkscape\fixed_grouping_gating_analysis_svg-tex.pdf
 INPUT .\text\chapter4.tex
 INPUT .\text\chapter4.tex
 INPUT text\chapter4.tex
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\text\chapter5.tex
 INPUT .\text\chapter5.tex
 INPUT text\chapter5.tex
@@ -583,6 +608,45 @@ INPUT .\text\abstract_korean.tex
 INPUT .\text\abstract_korean.tex
 INPUT .\text\abstract_korean.tex
 INPUT text\abstract_korean.tex
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmac.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmcc.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd0.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc9.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc7.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd6.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd5.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb2.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd4.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc5.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc1.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmbc.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb8.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb4.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc2.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb9.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmcf.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc6.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb3.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmba.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd3.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmae.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmad.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb7.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb0.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc8.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmbd.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd2.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd7.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmce.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb5.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmcd.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmd1.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc0.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmbf.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmc3.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmbb.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmbe.tfm
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\tfm\public\nanumtype1\nanummjmb1.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1pcr.fd
@@ -617,6 +681,84 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmac.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmac.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmad.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmad.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmae.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmae.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb0.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb0.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb1.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb1.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb2.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb2.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb3.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb3.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb4.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb4.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb5.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb5.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb7.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb7.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb8.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb8.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb9.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmb9.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmba.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmba.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbb.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbb.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbc.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbc.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbd.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbd.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbe.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbe.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbf.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmbf.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc0.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc0.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc1.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc1.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc2.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc2.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc3.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc3.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc5.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc5.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc6.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc6.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc7.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc7.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc8.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc8.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc9.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmc9.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmcc.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmcc.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmcd.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmcd.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmce.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmce.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmcf.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmcf.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd0.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd0.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd1.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd1.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd2.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd2.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd3.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd3.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd4.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd4.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd5.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd5.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd6.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd6.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd7.pfb
+INPUT C:\Users\hecto\AppData\Roaming\MiKTeX\fonts\type1\public\nanumtype1\nanummjmd7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
