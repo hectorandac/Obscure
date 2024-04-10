@@ -50,12 +50,12 @@ Our experimental results are significant, showing that our gated architecture ac
     \label{tab:mnist_model_comparison}
     \begin{tabularx}{\textwidth}{@{}Xccccc@{}}
     \toprule
-    Model Variant & Accuracy & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
+    Model Variant & Latency & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
     \midrule
-    \cite{ultralytics2021yolov5}YOLOv5 N & - & - & - & - & - \\
-    \cite{ultralytics2021yolov5}YOLOv5 S & - & - & - & - & - \\
-    \cite{ultralytics2021yolov5}YOLOv5 M & - & - & - & - & - \\
-    \cite{ultralytics2021yolov5}YOLOv5 L & - & - & - & - & - \\
+    \cite{ultralytics2021yolov5}YOLOv5 N & - & 82.2\% & 97.3\% & 87.8\% & 92.3\% \\
+    \cite{ultralytics2021yolov5}YOLOv5 S & - & 98.0\% & 98.8\% & 98.8\% & 98.8\% \\
+    \cite{ultralytics2021yolov5}YOLOv5 M & - & 98.1\% & 98.8\% & 98.1\% & 98.45\% \\
+    \cite{ultralytics2021yolov5}YOLOv5 L & - & 99.0\% & 99.1\% & 98.4\% & 98.74\% \\
     \addlinespace
     \cite{li2023yolov6}YOLOv6 N & - & - & - & - & - \\
     \cite{li2023yolov6}YOLOv6 S & - & - & - & - & - \\
@@ -90,7 +90,7 @@ On the COCO dataset, our model demonstrated an improvement in mAP by 2.3\% over 
     \label{tab:coco_model_comparison}
     \begin{tabularx}{\textwidth}{@{}Xccccc@{}}
     \toprule
-    Model Variant & Accuracy & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
+    Model Variant & Latency & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
     \midrule
     \cite{ultralytics2021yolov5}YOLOv5 N & - & - & - & - & - \\
     \cite{ultralytics2021yolov5}YOLOv5 S & - & - & - & - & - \\
@@ -129,7 +129,7 @@ On the VOC dataset, our model demonstrated an improvement in mAP by 2.3\% over t
     \label{tab:voc_model_comparison}
     \begin{tabularx}{\textwidth}{@{}Xccccc@{}}
     \toprule
-    Model Variant & Accuracy & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
+    Model Variant & Latency & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
     \midrule
     \cite{ultralytics2021yolov5}YOLOv5 N & - & - & - & - & - \\
     \cite{ultralytics2021yolov5}YOLOv5 S & - & - & - & - & - \\
@@ -168,7 +168,7 @@ On the VOC dataset, our model demonstrated an improvement in mAP by 2.3\% over t
     \label{tab:mnist_model_comparison}
     \begin{tabularx}{\textwidth}{@{}Xccccc@{}}
     \toprule
-    Model Variant & Accuracy & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
+    Model Variant & Latency & mAP@0.50:0.95 & Precision & Recall & F1 Score \\ 
     \midrule
     \cite{ultralytics2021yolov5}YOLOv5 N & - & - & - & - & - \\
     \cite{ultralytics2021yolov5}YOLOv5 S & - & - & - & - & - \\
@@ -211,7 +211,7 @@ Exploring the impact of different noise distribution strategies on model perform
 \label{tab:noise_distribution}
 \begin{tabular}{@{}lccc@{}}
 \toprule
-Noise Strategy & Accuracy (\%) & mAP@0.5 (\%) & F1 Score (\%) \\ 
+Noise Strategy & Latency (\%) & mAP@0.5 (\%) & F1 Score (\%) \\ 
 \midrule
 Gaussian & - & - & - \\
 Uniform & - & - & - \\
@@ -230,7 +230,7 @@ This section analyzes the performance variations when employing different featur
 \label{tab:feature_extractor}
 \begin{tabular}{@{}lccc@{}}
 \toprule
-Feature Extractor & Accuracy (\%) & mAP@0.5 (\%) & F1 Score (\%) \\ 
+Feature Extractor & Latency (\%) & mAP@0.5 (\%) & F1 Score (\%) \\ 
 \midrule
 ResNet-50 & - & - & - \\
 MobileNet & - & - & - \\
@@ -249,7 +249,7 @@ Investigating the adaptability of the gating mechanism across different YOLO arc
 \label{tab:yolo_architecture}
 \begin{tabular}{@{}lccc@{}}
 \toprule
-YOLO Variant & Accuracy (\%) & mAP@0.5 (\%) & F1 Score (\%) \\ 
+YOLO Variant & Latency (\%) & mAP@0.5 (\%) & F1 Score (\%) \\ 
 \midrule
 YOLOv5 + Gating & - & - & - \\
 YOLOv6 + Gating & - & - & - \\
