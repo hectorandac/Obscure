@@ -1,9 +1,9 @@
 \section{Methodology} 
 
-Our study introduces an innovative approach to optimize object detection within the constraints of limited computational resources, specifically through the development of the Gated Scene-Specific YOLO architecture. This methodology leverages a dynamic gating mechanism, a novel adaptation within the established YOLO framework, to enhance the model's efficiency and adaptability by selectively processing only the neural pathways relevant to the observed scene. The primary focus of this section is to delineate the systematic approach employed in the design, implementation, and validation of this architecture. We outline the steps taken to integrate dynamic gating with the YOLO architecture, including the development and deployment of the Gater Network, the modifications applied to the YOLO architecture for accommodating gating mechanisms, and the analytical methods used to assess the model's performance in varied scene-specific contexts. The subsequent paragraphs will detail each component of our methodology, elucidating the technical strategies employed to achieve a balance between computational efficiency and detection accuracy in resource-constrained environments.
+Our study introduces an innovative approach to optimize object detection within the constraints of limited computational resources, specifically through the development of the Gated YOLO architecture. This methodology leverages a dynamic gating mechanism, a novel adaptation within the established YOLO framework, to enhance the model's efficiency and adaptability by selectively processing only the neural pathways relevant to the observed scene. The primary focus of this section is to delineate the systematic approach employed in the design, implementation, and validation of this architecture. We outline the steps taken to integrate dynamic gating with the YOLO architecture, including the development and deployment of the Gater Network, the modifications applied to the YOLO architecture for accommodating gating mechanisms, and the analytical methods used to assess the model's performance in varied scene-specific contexts. The subsequent paragraphs will detail each component of our methodology, elucidating the technical strategies employed to achieve a balance between computational efficiency and detection accuracy in resource-constrained environments.
 
 \subsection{Gater Network}
-The cornerstone of our Gated Scene-Specific YOLO model is the Gater Network, a novel component designed to enhance the model's computational efficiency by dynamically modulating the activation of neural pathways based on the specific features of the input scene. This is achieved by the generation of gates influenced by the scene salient characteristics. Utilizing the principles of conditional computation, the Gater Network strategically deactivates certain parts of the neural network that are deemed irrelevant for a given scene, thereby reducing unnecessary computational overhead with minimal compromise to the model's object detection capabilities.
+The cornerstone of our Gated YOLO model is the Gater Network, a novel component designed to enhance the model's computational efficiency by dynamically modulating the activation of neural pathways based on the specific features of the input scene. This is achieved by the generation of gates influenced by the scene salient characteristics. Utilizing the principles of conditional computation, the Gater Network strategically deactivates certain parts of the neural network that are deemed irrelevant for a given scene, thereby reducing unnecessary computational overhead with minimal compromise to the model's object detection capabilities.
 
 The Gater Network operates in two main phases: gate generation during training and gate application during inference. During the training phase, the network learns to identify and generate a set of binary gates based on the distinguishing features of the input images. These gates serve as indicators for activating or deactivating specific channels within the YOLO architecture, depending on their relevance to the task at hand. The process leverages Improved Semantic Hashing, a technique inspired by the work of Kaiser and Bengio~\cite{kaiser2018discrete} and further explored by Chen et al.~\cite{chen2019you}, to ensure that the gate generation is both efficient and effective.
 
@@ -12,7 +12,7 @@ The Gater Network operates in two main phases: gate generation during training a
 \begin{figure}[ht]
     \centering
     \includesvg[width=\textwidth]{./figures/gaternet}
-    \caption{Illustration of the GaterNet architectur. The GaterNet extract features using ResNet-18 and process the output to generate a set of binary gates}
+    \caption{Illustration of the GaterNet architecture. The GaterNet extract features using ResNet-18 and process the output to generate a set of binary gates}
     \label{fig:gaternet_architecture}
     \end{figure}
 
@@ -23,7 +23,7 @@ During inference, the pre-determined gates are applied to the YOLO architecture,
 In summary, the Gater Network introduces a significant advancement in the YOLO architecture by incorporating a dynamic gating mechanism that intelligently deactivates filters based on the unique features of each input scene. This approach not only enhances computational efficiency but also maintains high detection accuracy, demonstrating the potential of selective gating in improving real-time object detection applications.
 
 \subsubsection{Feature Extraction}
-The feature extraction process within the Gater Network plays a pivotal role in our Gated Scene-Specific YOLO model, laying the foundation for the subsequent gating mechanism by identifying the critical features from the input images. This process can make use of any DNN like the ResNet family. In our experiments we defaulted to ResNet-18~\cite{he2016deep} for its renowned efficiency and effectiveness in capturing salient features from images with minimal computational resources. The overview of the feature extractor can be seen in figure. Additionally we analized the effect of using more complex variations to enhancethe GaterNet representations capabilities, the result of which can be reviewed in Table ... \ignore{TODO: Add abliation test of using different Resnet Sizes and Transformaer based network to identify the image silient features}.
+The feature extraction process within the Gater Network plays a pivotal role in our Gated YOLO model, laying the foundation for the subsequent gating mechanism by identifying the critical features from the input images. This process can make use of any DNN like the ResNet family. In our experiments we defaulted to ResNet-18~\cite{he2016deep} for its renowned efficiency and effectiveness in capturing salient features from images with minimal computational resources. Additionally we analyzed the effect of using more complex variations to enhance the GaterNet representations capabilities, the result of which can be reviewed in table \ref{tab:feature_extractor}.
 
 \paragraph{ResNet-18 for Efficient Feature Representation.} ResNet-18 is chosen for its shallow architecture compared to deeper variants, striking an optimal balance between computational efficiency and the ability to extract rich, discriminative features. This balance is crucial for our model's application in resource-constrained environments, where maintaining high accuracy without excessive computational burden is essential. The feature extraction is formalized as follows in equation~(\ref{eq:feature_flatten}):
 
@@ -34,18 +34,12 @@ The feature extraction process within the Gater Network plays a pivotal role in 
 
 where \(x \in \mathbb{R}^{c_0 \times h_0 \times w_0}\) represents the input image, and \(f_{\text{net}}(x)\) denotes the feature representation extracted by the ResNet-18 network. The \(AdaptivePool\) operation ensures that the output from \(f_{\text{net}}\) is standardized, facilitating uniformity across different input dimensions. The final feature vector \(F_{\text{extract}}(x)\) is obtained by flattening the pooled features, making it suitable for further processing by the fully connected layers leading to gate generation.
 
-\ignore{TODO: Update this after the Geature Extractor modifications experiment, adding batch normalization and relu to both fully connected layers and removing 2x2 average pooling}
-
 \paragraph{Adaptive Pooling for Dimensionality Reduction.} Adaptive pooling plays a crucial role in our feature extraction process by dynamically adjusting the size of the feature maps to a fixed dimension, thereby enabling a consistent input size for the fully connected layers regardless of the original input image size. This step is critical for ensuring that the feature extraction process remains efficient and scalable across varying image dimensions.
 
-\ignore{TODO: After experiments review if the above section is still required}
-
-\paragraph{Feature Flattening for Gate Generation.} After adaptive pooling \ignore{TODO: Check this out, after experiments}, the feature map undergoes a flattening operation, transforming it into a one-dimensional vector suitable for analysis by the subsequent layers responsible for gate generation. This flattened feature vector encapsulates the essential information required for determining the relevance of specific neural pathways in the YOLO architecture, forming the basis for the dynamic gating mechanism.
-
-By employing ResNet-18 for feature extraction, we leverage its proven capabilities in efficient feature representation while ensuring that the Gater Network remains computationally manageable. The combination of adaptive pooling and feature flattening further streamlines the process, preparing the extracted features for the critical task of gate generation, which ultimately drives the selective activation and deactivation of neural pathways in our model.
+\paragraph{Feature Flattening for Gate Generation.} After adaptive pooling, the feature map undergoes a flattening operation, transforming it into a one-dimensional vector suitable for analysis by the subsequent layers responsible for gate generation. This flattened feature vector encapsulates the essential information required for determining the relevance of specific neural pathways in the YOLO architecture, forming the basis for the dynamic gating mechanism.
 
 \subsubsection{Binary Gates}
-Binary gates within the Gater Network are pivotal for modulating the activity of neural pathways in the YOLO architecture, enabling selective processing based on the input scene's characteristics. These gates are generated through a series of operations that map the high-dimensional feature vector obtained from the feature extraction phase to a binary vector, where each element corresponds to a specific channel in the YOLO architecture. The generation and application of these binary gates are fundamentally rooted in the concept of Improved Semantic Hashing~\cite{kaiser2018discrete,chen2019you}, which ensures the differentiability of the gating process during training while maintaining binary decisions during inference. As default for our implementation we sampled noise from the Gaussian distribution. Additionally, experiments were performed with Gumbel distribution to exploit the Gumbel-Softmax approach, the findings for this venture can be validated on Table. ... \ignore{TODO: After experimentation add the requiered information about Gumbel Softmax approach here}.
+Binary gates within the Gater Network are pivotal for modulating the activity of neural pathways in the YOLO architecture, enabling selective processing based on the input scene's characteristics. These gates are generated through a series of operations that map the high-dimensional feature vector obtained from the feature extraction phase to a binary vector, where each element corresponds to a specific channel in the YOLO architecture. The generation and application of these binary gates are fundamentally rooted in the concept of Improved Semantic Hashing~\cite{kaiser2018discrete,chen2019you}, which ensures the differentiability of the gating process during training while maintaining binary decisions during inference. As default for our implementation we sampled noise from the Gaussian distribution. Additionally, experiments were performed with Gumbel distribution to exploit the Gumbel-Softmax approach, the findings for this venture can be validated on table \ref{tab:noise_distribution}.
 
 \paragraph{Mapping to Binary Space.} The process begins with mapping the extracted features to the binary space. This mapping is achieved through a dual-layer architecture comprising two fully connected layers that introduce a bottleneck layer to efficiently manage the parameter space while ensuring the representational capacity:
 
@@ -59,7 +53,7 @@ g_0 = \text{FC2}(f_0).
 \label{eq:binary_mapping}
 \end{equation}
 
-In Equation~(\ref{eq:bottleneck_mapping}), \(f\) denotes the flattened feature vector, and \(f_0\) represents the intermediate representation at the bottleneck. \(FC1\) and \(FC2\) are the two fully connected layers, with ReLU activation and Batch Normalization applied after the first layer \ignore{TODO: Double check this after experiments are done} to enhance training stability and non-linearity. Equation~(\ref{eq:binary_mapping}) maps \(f_0\) to \(g_0\), the pre-activation gate vector, poised for binary conversion.
+In Equation~(\ref{eq:bottleneck_mapping}), \(f\) denotes the flattened feature vector, and \(f_0\) represents the intermediate representation at the bottleneck. \(FC1\) and \(FC2\) are the two fully connected layers, with ReLU activation and Batch Normalization applied after the first layer to enhance training stability and non-linearity. Equation~(\ref{eq:binary_mapping}) maps \(f_0\) to \(g_0\), the pre-activation gate vector, poised for binary conversion.
 
 \paragraph{Improved Semantic Hashing.} The cornerstone of our binary gate generation process is the Improved Semantic Hashing technique, which allows the network to generate binary gates in a differentiable manner during training. This adaptability is crucial for integrating the gating mechanism within the end-to-end training process of the YOLO architecture. The method involves adding a noise component to the pre-activation gate vector and applying a sigmoid function to obtain a soft binary gate:
 
@@ -80,7 +74,7 @@ where \(\epsilon\) represents a noise vector sampled from a Gaussian distributio
 \begin{equation}
 g_{\beta}(i) = 
 \begin{cases}
-1, & \text{if } g_{\alpha}(i) \geq 0.5,\\
+1, & \text{if } g_{\alpha}(i) \geq \text{Gating threshold},\\
 0, & \text{otherwise}.
 \end{cases}
 \label{eq:hard_binary_decision}
@@ -88,10 +82,10 @@ g_{\beta}(i) =
 
 This binary decision-making process ensures that only the relevant features contributing to the object detection task are processed, thereby enhancing the model's computational efficiency without compromising its detection performance.
 
-In essence, the Binary Gates subsection outlines the sophisticated methodology employed to generate and apply binary gates within the Gater Network, leveraging Improved Semantic Hashing to marry the model's need for differentiability during training with the necessity for discrete decision-making during inference. This delicate balance enables the Gated Scene-Specific YOLO model to dynamically adapt to various scene features, optimizing computational resources while slightly impacting the accuracy in object detection tasks.
+In essence, the Binary Gates subsection outlines the sophisticated methodology employed to generate and apply binary gates within the Gater Network, leveraging Improved Semantic Hashing to marry the model's need for differentiability during training with the necessity for discrete decision-making during inference. This delicate balance enables the Gated YOLO model to dynamically adapt to various scene features, optimizing computational resources while slightly impacting the accuracy in object detection tasks.
 
 \subsubsection{Loss Function}
-The loss function of our Gated Scene-Specific YOLO model is meticulously designed to optimize both the object detection performance and the efficiency of the gating mechanism. It is an amalgamation of multiple components that jointly guide the training process towards achieving high accuracy in object detection while ensuring computational efficiency through effective gate generation. The overall loss function is formulated as follows in equation~(\ref{eq:total_loss}):
+The loss function of our Gated YOLO model is meticulously designed to optimize both object detection performance and the efficiency of the gating mechanism. It amalgamates multiple components to guide the training process towards achieving high accuracy in object detection while ensuring computational efficiency through effective gate generation. The overall loss function is formulated as follows in equation~(\ref{eq:total_loss}):
 
 \begin{equation}
 L = \alpha_{\text{cls}} L_{\text{cls}} + \alpha_{\text{iou}} L_{\text{iou}} + \alpha_{\text{dfl}} L_{\text{dfl}} + \lambda \cdot L_{\text{gate}},
@@ -102,44 +96,44 @@ where \(L_{\text{cls}}\), \(L_{\text{iou}}\), and \(L_{\text{dfl}}\) represent t
 
 \paragraph{Classification and IoU Losses.} The classification loss \(L_{\text{cls}}\) and IoU loss \(L_{\text{iou}}\) are fundamental to object detection models, ensuring accurate classification and localization of objects within the scene~\cite{li2023yolov6,li2022yolov6}. The distance-IoU loss \(L_{\text{dfl}}\) further refines the bounding box predictions, enhancing the precision of object localization.
 
-\paragraph{Gating Loss.} The gating loss \(L_{\text{gate}}\) is pivotal in training the Gater Network, promoting the generation of efficient and effective gates. It is designed to encourage the model to minimize the number of active gates, thereby reducing the computational load during inference. The gating loss is formulated as an \(L_1\) regularization term over the gate vector \(g\), encouraging sparsity, this loss can be express in equation ~(\ref{eq:gate_loss}) the follwoing manner:
+\paragraph{Gating Loss.} The gating loss \(L_{\text{gate}}\) is pivotal in training the Gater Network, promoting the generation of efficient and effective gates. It is designed to encourage the model to minimize the number of active gates, thereby reducing the computational load during inference. The gating loss is formulated as an \(L_1\) regularization term over the gate vector \(g\), encouraging sparsity. This loss can be expressed in equation~(\ref{eq:gate_loss}) as follows:
 
 \begin{equation}
 L_{\text{gate}} = \frac{1}{c} \| g \|_1 = \frac{1}{c} \sum_{i} | g_i |,
 \label{eq:gate_loss}
 \end{equation}
 
-where \(c\) is the total number of gates, and \(g_i\) represents the individual gate values. By penalizing the sum of the absolute values of the gate vector, the model is incentivized to deactivate unnecessary channels, thereby streamlining the network for increased efficiency.
+where \(c\) is the total number of gates, and \(g_i\) represents the individual gate values. By penalizing the sum of the absolute values of the gate vector, the model is encouraged to deactivate unnecessary channels, thereby streamlining the network for increased efficiency.
 
 \paragraph{Balancing Detection Performance and Efficiency.} The coefficients \(\alpha_{\text{cls}}\), \(\alpha_{\text{iou}}\), \(\alpha_{\text{dfl}}\), and the regularization term \(\lambda\) play crucial roles in balancing the model's object detection performance with the efficiency of the gating mechanism. By adjusting these parameters, we can fine-tune the model to prioritize either detection accuracy or computational efficiency, depending on the application requirements.
 
-In conclusion, the loss function of the Gated Scene-Specific YOLO model is a comprehensive formulation that encompasses the dual objectives of maintaining high accuracy in object detection and optimizing computational efficiency through an effective gating mechanism. This strategic combination of loss components ensures that the model can be effectively trained to meet the demands of real-world object detection tasks in resource-constrained environments.
+Additionally, the gating mechanism's threshold, represented as \texttt{gtg\_threshold}, influences the binary decision process in the gating mechanism. The gating loss \(L_{\text{gate}}\) is dynamically scaled using the \texttt{gtg\_decay} parameter, which adjusts the weight of the gating loss over epochs to balance the trade-off between gate sparsity and detection performance.
+
+In conclusion, the loss function of the Gated YOLO model is a comprehensive formulation that encompasses the dual objectives of maintaining high accuracy in object detection and optimizing computational efficiency through an effective gating mechanism. This strategic combination of loss components ensures that the model can be effectively trained to meet the demands of real-world object detection tasks in resource-constrained environments.
 
 \subsection{YOLO Architecture}
 
-In the design of our Gated Scene-Specific YOLO model, we leverage the strengths of the YOLOv6 architecture, as proposed by Li et al.~\cite{li2023yolov6,li2022yolov6}, renowned for its exceptional real-time performance and optimal utilization of hardware resources. The YOLOv6 framework serves as the foundational backbone, onto which we have integrated the GaterNet that introduces a dynamic gating mechanism. This integration enables our model to perform selective feature processing, substantially improving computational efficiency without sacrificing detection accuracy. The following figure illustrates the modified YOLO architecture augmented with the GaterNet functionality:
+In the design of our Gated YOLO model, we leverage the strengths of the YOLOv6 architecture, as proposed by Li et al.~\cite{li2023yolov6,li2022yolov6}, renowned for its exceptional real-time performance and optimal utilization of hardware resources. The YOLOv6 framework serves as the foundational backbone, onto which we have integrated the GaterNet that introduces a dynamic gating mechanism. This integration enables our model to perform selective feature processing, substantially improving computational efficiency without sacrificing detection accuracy. The following figure illustrates the modified YOLO architecture augmented with the GaterNet functionality:
 
 \begin{figure}[ht]
     \centering
     \includesvg[width=\textwidth]{./figures/yolov6_architecture}
-    \caption{Illustration of the YOLOv6 architecture enhanced with the GaterNet, featuring sections like 'Gated Efficient Reparameterizable Backbone (EfficientRep)', 'Gated Rep-Pan Neck', and 'Gated Efficient Decoupled Heads', each engineered for maximized performance and efficiency.}
+    \caption{Illustration of the YOLOv6 architecture enhanced with the GaterNet, featuring sections like 'Gated Efficient Reparameterizable Backbone (EfficientRep)', 'Gated Rep-Pan Neck', and 'Efficient Decoupled Heads', each engineered for maximized performance and efficiency.}
     \label{fig:yolo_architecture}
     \end{figure}
 
 \begin{figure}[ht]
     \centering
     \includesvg[width=\textwidth]{./figures/gated_convolution}
-    \caption{Illustration of the YOLOv6 architecture enhanced with the GaterNet, featuring sections like 'Gated Efficient Reparameterizable Backbone (EfficientRep)', 'Gated Rep-Pan Neck', and 'Gated Efficient Decoupled Heads', each engineered for maximized performance and efficiency.}
+    \caption{Illustration of the Gater Module enhanced with the GaterNet, featuring the duality of paths that entails the completely gated layer and the partially gated layer processes.}
     \label{fig:gating_mechanism}
     \end{figure}
 
-The incorporation of GaterNet into the YOLO architecture facilitates a more selective and efficient processing approach, primarily through three key components:
+The incorporation of GaterNet into the YOLO architecture facilitates a more selective and efficient processing approach, primarily through two key components:
 
-\textbf{Gated Efficient Reparameterizable Backbone (EfficientRep):} This component forms the core of our feature extraction mechanism. By employing gating mechanisms, the EfficientRep selectively emphasizes critical features while minimizing attention to redundant information. This selectivity ensures that subsequent processing layers focus computational resources on analyzing features of utmost relevance to the detection task at hand.
+\textbf{Gated Efficient Reparameterizable Backbone:} This component forms the core of our feature extraction mechanism. By employing gating mechanisms, the EfficientRep selectively emphasizes critical features while minimizing attention to redundant information. This selectivity ensures that subsequent processing layers focus computational resources on analyzing features of utmost relevance to the detection task at hand.
 
 \textbf{Gated Rep-Pan Neck:} Inspired by the PANet topology and enhanced with Rep blocks for added efficiency, the Gated Rep-Pan Neck dynamically adjusts feature resolution and scale. It optimizes the integration and refinement of features passed from the EfficientRep to the detection heads, playing a vital role in ensuring the accuracy of object detection.
-
-\textbf{Gated Efficient Decoupled Heads:} Drawing on the original design of YOLOv6, this component employs a hybrid-channel strategy to reduce the convolutional layers count. Gates within these heads dynamically prioritize the processing of pertinent features, thus significantly curtailing unnecessary computations and reducing inference time.
 
 \subsubsection{YOLO Gate Module}
 The YOLO Gate Module significantly enhances the YOLO architecture by integrating the dynamic gating functionality, offering a novel approach to managing feature processing both during training and inference phases. Through this module, the network learns to modulate its output by performing element-wise multiplication of the convolutional outputs with the gating signals generated by the GaterNet:
@@ -164,7 +158,7 @@ Here, \(\mathbf{G}\) represents the gate vector, indicating the activation statu
 
 \subsection{Analysis Step}
 
-The analysis step represents a critical phase in our Gated Scene-Specific YOLO methodology, where the model's adaptability and efficiency are fine-tuned for specific scene conditions. Through a detailed analysis process, we evaluate the model's performance over a designated scene for a set duration, allowing us to observe and record the operational status of the gating mechanism in real-time scenarios. This process involves a meticulous examination of the gating decisions made by the GaterNet for each frame processed, focusing on identifying which filters are essential for maintaining detection accuracy and which can be deactivated without compromising performance.
+The analysis step represents a critical phase in our Gated YOLO methodology, where the model's adaptability and efficiency are fine-tuned for specific scene conditions. Through a detailed analysis process, we evaluate the model's performance over a designated scene for a set duration, allowing us to observe and record the operational status of the gating mechanism in real-time scenarios. This process involves a meticulous examination of the gating decisions made by the GaterNet for each frame processed, focusing on identifying which filters are essential for maintaining detection accuracy and which can be deactivated without compromising performance.
 
 \paragraph{Monitoring Gating Decisions.} The essence of this analysis lies in monitoring the closure rate of each gate across the network, a task accomplished by systematically tracking the activation state of each gate throughout the inference process:
 
@@ -175,9 +169,8 @@ The analysis step represents a critical phase in our Gated Scene-Specific YOLO m
 
 where \(\Gamma(t)\) represents the set of gating states at time \(t\), and \(\gamma_{i}(t)\) indicates the state (active or inactive) of the \(i\)-th gate. By analyzing these states over time, we can identify patterns of gate usage that correlate with specific features or elements within the scene.
 
-\paragraph{Grouping and Analysis of Gating Decisions.} To facilitate a clearer understanding and interpretation of the gating decisions, we aggregate these decisions by network sections, as visualized in the following figure:
+To facilitate a clearer understanding and interpretation of the gating decisions, we aggregate these decisions by network sections, as visualized in the following figure:
 
-% Assuming the figure and its label have been correctly defined earlier in the document as shown in your example.
 \begin{figure}[htbp]
 \centering
 \includesvg[width=\textwidth]{./figures/fixed_grouping_gating_analysis}
@@ -193,9 +186,5 @@ G_{\text{static}} = \text{distill}(\Gamma(t), \, \forall t \in T),
 \end{equation}
 
 where \(G_{\text{static}}\) denotes the derived static gating configuration, and \(T\) is the duration of the analysis period. This static configuration enables the model to bypass the need for dynamic gate computations by the GaterNet in subsequent inferences, significantly reducing computational overhead.
-
-\paragraph{Practical Implications and Future Directions.} By implementing this analysis step, we establish a methodical approach to optimizing the Gated Scene-Specific YOLO model for specific environmental conditions, ensuring that the model's computational resources are allocated efficiently. The findings from this phase not only enhance our understanding of the dynamic interaction between scene features and the gating mechanism but also pave the way for future research into adaptive and efficient object detection methodologies.
-
-In conclusion, the analysis step is a pivotal component of our methodology, enabling the Gated Scene-Specific YOLO model to achieve an optimal balance between detection performance and computational efficiency. Through this process, we refine the model's gating mechanism to suit specific scene characteristics, thereby ensuring high accuracy and reduced resource consumption in real-world object detection tasks.
 
 \clearpage

@@ -472,82 +472,6 @@
     \field{year}{2016}
   \endentry
 
-  \entry{howard2019searching}{inproceedings}{}
-    \true{moreauthor}
-    \true{morelabelname}
-    \name{author}{10}{}{%
-      {{hash=HA}{%
-         family={Howard},
-         familyi={H\bibinitperiod},
-         given={Andrew},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Sandler},
-         familyi={S\bibinitperiod},
-         given={Mark},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=CG}{%
-         family={Chu},
-         familyi={C\bibinitperiod},
-         given={Grace},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=CLC}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Liang-Chieh},
-         giveni={L\bibinithyphendelim C\bibinitperiod},
-      }}%
-      {{hash=CB}{%
-         family={Chen},
-         familyi={C\bibinitperiod},
-         given={Bo},
-         giveni={B\bibinitperiod},
-      }}%
-      {{hash=TM}{%
-         family={Tan},
-         familyi={T\bibinitperiod},
-         given={Mingxing},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=WW}{%
-         family={Wang},
-         familyi={W\bibinitperiod},
-         given={Weijun},
-         giveni={W\bibinitperiod},
-      }}%
-      {{hash=ZY}{%
-         family={Zhu},
-         familyi={Z\bibinitperiod},
-         given={Yukun},
-         giveni={Y\bibinitperiod},
-      }}%
-      {{hash=PR}{%
-         family={Pang},
-         familyi={P\bibinitperiod},
-         given={Ruoming},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=VV}{%
-         family={Vasudevan},
-         familyi={V\bibinitperiod},
-         given={Vijay},
-         giveni={V\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HASMCG+1}
-    \strng{fullhash}{HASMCGCLCCBTMWWZYPRVV+1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{booktitle}{Proceedings of the IEEE/CVF international conference on
-  computer vision}
-    \field{pages}{1314\bibrangedash 1324}
-    \field{title}{Searching for mobilenetv3}
-    \field{year}{2019}
-  \endentry
-
   \entry{krishnamoorthi2018quantizing}{article}{}
     \name{author}{1}{}{%
       {{hash=KR}{%
@@ -794,6 +718,49 @@
     \field{year}{2016}
   \endentry
 
+  \entry{pascal-voc-2012}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=EM}{%
+         family={Everingham},
+         familyi={E\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VGL}{%
+         family={Van\bibnamedelima Gool},
+         familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WCKI}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={C.\bibnamedelima K.\bibnamedelima I.},
+         giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Winn},
+         familyi={W\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zisserman},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EMVGLWCKI+1}
+    \strng{fullhash}{EMVGLWCKIWJZA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{http://www.pascal-network.org/challenges/VOC/voc2012/workshop/index.html}
+    \field{title}{The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2012
+  {(VOC2012)} {R}esults}
+  \endentry
+
   \entry{ultralytics2021yolov5}{misc}{}
     \name{author}{1}{}{%
       {{hash=U}{%
@@ -856,52 +823,6 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.CV}
     \field{year}{2021}
-  \endentry
-
-  \entry{dog2021dog}{article}{}
-    \name{author}{1}{}{%
-      {{hash=DQA}{%
-         family={DOG-QIUQIU},
-         familyi={D\bibinithyphendelim Q\bibinitperiod},
-         given={A},
-         giveni={A},
-      }}%
-    }
-    \strng{namehash}{DQA1}
-    \strng{fullhash}{DQA1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{dog-qiuqiu/Yolo-Fastest: Yolo-fastest-v1. 1.0}
-    \field{year}{2021}
-  \endentry
-
-  \entry{tan2019efficientnet}{inproceedings}{}
-    \name{author}{2}{}{%
-      {{hash=TM}{%
-         family={Tan},
-         familyi={T\bibinitperiod},
-         given={Mingxing},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=LQ}{%
-         family={Le},
-         familyi={L\bibinitperiod},
-         given={Quoc},
-         giveni={Q\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {PMLR}%
-    }
-    \strng{namehash}{TMLQ1}
-    \strng{fullhash}{TMLQ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{booktitle}{International conference on machine learning}
-    \field{pages}{6105\bibrangedash 6114}
-    \field{title}{Efficientnet: Rethinking model scaling for convolutional
-  neural networks}
-    \field{year}{2019}
   \endentry
 \enddatalist
 \endinput
