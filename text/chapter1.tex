@@ -6,7 +6,7 @@ Object detection is a foundational pillar within computer vision, influencing ap
 
 Despite the advancements brought by YOLO and its iterations, challenges remain, particularly in edge computing where computational resources are limited and real-time processing is essential. Recognizing the potential for further optimization, our study explores YOLOv6 \cite{li2022yolov6,li2023yolov6}, a variant designed with a focus on hardware efficiency and real-time applications. YOLOv6's architecture \cite{li2022yolov6,li2023yolov6} serves as an ideal foundation for our investigation due to its performance in hardware-constrained environments.
 
-Our research introduces "Gated YOLO," a novel framework that integrates dynamic gating with model pruning, specifically tailored to the YOLO architecture. Our approach maintains high modularity, facilitating portability to other YOLO architectures.
+Our research introduces ``Gated YOLO,'' a novel framework that integrates dynamic gating with model pruning, specifically tailored to the YOLO architecture. Our approach maintains high modularity, facilitating portability to other YOLO architectures.
 
 A cornerstone of our methodology is the adaptation of Improved SemHash \cite{kaiser2018discrete}, initially proposed by Kaiser and Bengio and further refined by Chen et al. \cite{chen2019you}. This technique generates binary gates during model training, enabling selective activation or deactivation of network filters. Through dynamic gate generation and analysis tailored to specific scenes, our method identifies filters that remain consistently inactive. These filters are statically pruned for deployment, allowing the model to operate efficiently by focusing computational resources on active, scene-relevant pathways. The Gater Network \cite{chen2019you}, integral during training for gate determination, is rendered unnecessary during deployment, replaced by pre-determined, statically applied gates that ensure efficiency and specificity in detection.
 
@@ -20,7 +20,7 @@ Our focus on YOLOv6 \cite{li2022yolov6,li2023yolov6}, known for its balance of s
 
 \subsection{Objectives}
 
-The primary objective of our research is to develop an optimized version of the YOLOv6 \cite{li2022yolov6,li2023yolov6} architecture, termed "Gated YOLO," which incorporates a gating mechanism to enhance computational efficiency in object detection tasks, particularly in edge computing environments. To achieve this, we aim to:
+The primary objective of our research is to develop an optimized version of the YOLOv6 \cite{li2022yolov6,li2023yolov6} architecture, termed ``Gated YOLO,'' which incorporates a gating mechanism to enhance computational efficiency in object detection tasks, particularly in edge computing environments. To achieve this, we aim to:
 
 \paragraph{Implement Gating Mechanism:} Integrate a gating mechanism that selectively activates relevant neural pathways, improving model efficiency.
 

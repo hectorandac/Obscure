@@ -51,5 +51,5 @@
 \contentsline {subsection}{\numberline {4.7}Discussion}{32}{subsection.4.7}%
 \contentsline {section}{\numberline {5}Conclusion}{33}{section.5}%
 \contentsline {section}{Appendices}{34}{section.5}%
-\contentsline {section}{Abstract in Korean}{38}{section*.35}%
-\contentsline {section}{References}{39}{section*.36}%
+\contentsline {section}{Abstract in Korean}{37}{figure.caption.34}%
+\contentsline {section}{References}{38}{section*.35}%
