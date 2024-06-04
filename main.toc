@@ -10,7 +10,7 @@
 \contentsline {paragraph}{Optimize Through Model Pruning:}{3}{section*.4}%
 \contentsline {paragraph}{Leverage Improved SemHash \blx@tocontentsinit {0}\cite {kaiser2018discrete}:}{4}{section*.5}%
 \contentsline {paragraph}{Demonstrate Practical Efficacy:}{4}{section*.6}%
-\contentsline {section}{\numberline {2}Related Work}{5}{section.2}%
+\contentsline {section}{\numberline {2}Related Works}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Sparsity and Conditional Computation}{5}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Neural Network Pruning}{6}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Quantization Techniques for Neural Network Efficiency}{7}{subsection.2.3}%
@@ -26,15 +26,15 @@
 \contentsline {paragraph}{Feature Flattening for Gate Generation.}{14}{section*.12}%
 \contentsline {subsubsection}{\numberline {3.1.2}Binary Gates}{14}{subsubsection.3.1.2}%
 \contentsline {paragraph}{Mapping to Binary Space.}{15}{section*.13}%
-\contentsline {paragraph}{Improved Semantic Hashing.}{16}{section*.14}%
+\contentsline {paragraph}{Improved Semantic Hashing.}{15}{section*.14}%
 \contentsline {paragraph}{Binary Decision Making.}{16}{section*.15}%
 \contentsline {subsubsection}{\numberline {3.1.3}Loss Function}{17}{subsubsection.3.1.3}%
 \contentsline {paragraph}{Classification and IoU Losses.}{18}{section*.16}%
 \contentsline {paragraph}{Gating Loss.}{18}{section*.17}%
-\contentsline {paragraph}{Balancing Detection Performance and Efficiency.}{19}{section*.18}%
-\contentsline {subsection}{\numberline {3.2}YOLO Architecture}{20}{subsection.3.2}%
+\contentsline {paragraph}{Balancing Detection Performance and Efficiency.}{18}{section*.18}%
+\contentsline {subsection}{\numberline {3.2}YOLO Architecture}{19}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}YOLO Gate Module}{21}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}Analysis Step}{23}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Analysis Step}{22}{subsection.3.3}%
 \contentsline {paragraph}{Monitoring Gating Decisions.}{23}{section*.21}%
 \contentsline {paragraph}{Distillation of Static Gating Configuration.}{24}{section*.23}%
 \contentsline {section}{\numberline {4}Experiments and Results}{25}{section.4}%
